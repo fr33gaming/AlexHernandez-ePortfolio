@@ -1,8 +1,5 @@
-body {
+.header-banner {
   display: flex;
   justify-content: center;
-}
-
-.header-banner {
   background-color: lightgreen
 }
