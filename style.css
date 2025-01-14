@@ -3,6 +3,6 @@ body {
   justify-content: center;
 }
 
-.header {
+#header {
   background-color: lightgreen;
 }
