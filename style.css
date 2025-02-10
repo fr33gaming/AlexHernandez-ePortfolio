@@ -1,6 +1,6 @@
 .header-banner {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   background-color: lightgreen
 }
 
