@@ -2,9 +2,10 @@
   display: flex;
   justify-content: start;
   background-color: black;
+  color: white;
 }
 
-#code-title {
+#video-title {
   display: flex;
   justify-content: center;
 }
