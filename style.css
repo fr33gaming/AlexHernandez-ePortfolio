@@ -16,6 +16,10 @@ body {
   background-color: black;
   align-content: center;
   position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  
 }
 
 #portfolio-title {
@@ -25,6 +29,58 @@ body {
   display: flex;
   justify-content: start;
   color: white;
+}
+
+#github-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+#github-icon:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+
+
+#linkedin-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+#linkedin-icon:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+#email-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: end;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+#email-icon:hover {
+  color: grey;
+  cursor: pointer;
 }
 
 .code-review {
