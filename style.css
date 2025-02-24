@@ -1,11 +1,15 @@
 .header-banner {
-  display: flex;
-  justify-content: start;
+  width: 100%;
   background-color: black;
-  color: white;
 }
 
-#video-title {
+#portfolio-title {
+  display: flex;
+  justify-content: start;
+  color: white
+}
+
+.video-title {
   display: flex;
   justify-content: center;
 }
