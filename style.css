@@ -9,7 +9,7 @@
   color: white;
 }
 
-.video-title {
+#video-title {
   display: flex;
   justify-content: center;
 }
