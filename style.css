@@ -1,20 +1,26 @@
 html {
   margin: 0;
+  background-color: lightgrey;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 20px;
 }
 
 body {
   margin: 0;
+  height: fit-content;
 }
 
 .header-banner {
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color: black;
   align-content: center;
+  position: fixed;
 }
 
 #portfolio-title {
   margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: start;
   color: white;
@@ -23,11 +29,19 @@ body {
 .code-review {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin: auto;
-  width: 50%;
+  width: 75%;
+  height:fit-content;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 #video-title {
@@ -38,6 +52,66 @@ body {
 #video {
   display: flex;
   justify-content: center;
-  width: 800;
-  height: 400;
+  width: auto;
+  height: 800px;
+  border-radius: 20px;
+  margin: 30px;
 }
+
+img {
+  width: 154px;
+  height: 190px;
+  border-radius: 20px;
+}
+
+.artifact-cards {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  
+}
+
+.artifact-card {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+ 
+}
+
+.enhancements {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 75%;
+  height:fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+#enhancement-1 {
+  margin-top: 20px;;
+}
+
+
